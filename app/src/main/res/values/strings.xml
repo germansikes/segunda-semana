@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Proyecto</string>
+    <string name="btnPicker">Selecciona una fecha: </string>
+    <string name="nombre">Nombre Completo</string>
+    <string name="telofono">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="descripcion">Descripción:</string>
+    <string name="btn">Siguiente</string>
+    <string name="btnFecha">Seleccionar</string>
+    <string name="fechaDefault">  /  /  </string>
+    <string name="txtConfirmar">Confirmar Datos</string>
+    <string name="nombreBundle">dato</string>
+    <string name="fechaTxt">Fecha Nacimiento:</string>
+    <string name="telTxt">Tel:</string>
+    <string name="emailTxt">Email:</string>
+    <string name="desTxt">Descripción:</string>
+    <string name="txtEdit">Editar Datos</string>
+</resources>

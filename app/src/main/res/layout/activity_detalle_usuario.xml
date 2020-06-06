@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.dreamsense.segundasemana.DetalleUsuario">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:text="@string/txtConfirmar"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/confirmarDimen" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/nombreBundle"
+        android:id="@+id/tvNombre"
+        android:layout_gravity="left" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/fechaTxt"
+            android:id="@+id/txt1"
+            android:layout_gravity="left|center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/tvFecha"
+            android:layout_gravity="left|center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/telTxt"
+            android:id="@+id/txt2"
+            android:layout_gravity="left|center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/tvTel"
+            android:layout_gravity="left|center_horizontal" />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/emailTxt"
+        android:id="@+id/txt3"
+        android:layout_gravity="left|center_horizontal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvEmail"
+        android:layout_gravity="left|center_horizontal" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/desTxt"
+        android:id="@+id/txt4"
+        android:layout_gravity="left|center_horizontal"
+        android:layout_marginBottom="@dimen/top" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvDesc"
+        android:layout_gravity="left|center_horizontal"
+        android:layout_marginBottom="@dimen/top" />
+</LinearLayout>
+
+
+    <Button
+        android:layout_width="@dimen/widthEditar"
+        android:layout_height="wrap_content"
+        android:text="@string/txtEdit"
+        android:id="@+id/btnEditar"
+        android:layout_gravity="center_horizontal"
+        android:theme="@style/RaisedButton"
+        android:textSize="@dimen/letraTxtV"
+        android:elegantTextHeight="false"
+        android:inputType="text" />
+
+</LinearLayout>
